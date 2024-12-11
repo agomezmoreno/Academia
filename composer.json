@@ -1,0 +1,19 @@
+{
+    "name": "algom/academia1",
+    "autoload": {
+        "psr-4": {
+            "Algom\\Academia1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Álvaro Gómez",
+            "email": "algomo696@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "dompdf/dompdf": "^2.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
